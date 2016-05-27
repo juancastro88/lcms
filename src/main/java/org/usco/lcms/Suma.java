@@ -5,7 +5,7 @@ package org.usco.lcms;
 
 /**
  * @author juancastro
- * @version 1.0 27.05.2016
+ * @version 2.0 27.05.2016
  */
 public class Suma {
 	private double numero1;
@@ -72,5 +72,6 @@ public class Suma {
 	public double aumentar(double n1){
 		return n1 + 1;
 	}
+	
 	
 }
