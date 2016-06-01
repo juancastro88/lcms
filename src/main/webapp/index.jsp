@@ -1,8 +1,9 @@
 <%@ page import="java.util.Date"%>
 <%@ page import="org.usco.lcms.Suma"%>
+<%@ page import="org.usco.lcms.Resta"%>
 <html>
 <body>
-<h2>Hello World!</h2>
+<h2>Hola Mundo!</h2>
 
 <%
 	/*
@@ -111,6 +112,9 @@
 	double resultado = suma1.getSuma(10, 5);
 	out.println("<p>Suma(10,5): " + resultado + "</p>");
 	
+	Resta resta1 = new Resta();
+	double resultado1 = resta1.getResta(10, 5);
+	out.println("<p>Resta (10 - 5): " + resultado + "</p>");
 %>
 
 </body>
